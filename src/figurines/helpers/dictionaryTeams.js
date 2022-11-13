@@ -1,0 +1,38 @@
+
+
+export const dictionaryTeams = [
+
+    "argentina",
+    "ecuador",
+    "qatar",
+    "senegal",
+    "holanda",
+    "inglaterra",
+    "iran",
+    "usa",
+    "gales",
+    "india",
+    "mexico",
+    "polonia",
+    "francia",
+    "australia",
+    "dinamarca",
+    "tunez",
+    "españa",
+    "costa_rica",
+    "alemania",
+    "japon",
+    "belgica",
+    "canada",
+    "marruecos",
+    "croacia",
+    "brasil",
+    "serbia",
+    "suiza",
+    "camerun",
+    "portugal",
+    "ghana",
+    "uruguay",
+    "corea",
+]
+

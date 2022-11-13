@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d8d7d9;
+}
+
+html {
+  cursor: url(/mascota_1.png), auto;
+}
+
+h1 {
+  border: 5px solid #212529;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-image: url('/bgh1.jpg');
+  color: white;
+  background-attachment: local;
+  animation: example 100s infinite;
+  min-width: 60vw;
+  max-width: 60vw;
+  border-radius: 25px;
+  -webkit-text-stroke: 1.5px black;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.padding {
+  padding: 0%;
+}
+
+.btnRounded {
+  border-radius: 100%;
+}
+
+.marginRight {
+  margin-right: 1rem;
+}
+
+.gifs {
+  max-height: 10rem;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.imgFixture {
+  flex-wrap: wrap;
+  object-fit: contain;
+  width: min(100vw, 1080px);
+}
+
+.bgBlack {
+  background-color: black;
+}
+
+.bgTexture {
+  min-width: 250px;
+  max-width: 45vw;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-attachment: local;
+  border-top: 2px solid #212529;
+  border-left: 2px solid #212529;
+  border-right: 2px solid #212529;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+}
+
+nav {
+  z-index: 100;
+}
+
+.fontLetter {
+  font-family: 'Peralta', cursive;
+}
+
+@keyframes example {
+  0% {
+    background-position: initial;
+  }
+
+  20% {
+    background-position: bottom;
+  }
+
+  30% {
+    background-position: right;
+  }
+
+  40% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: top;
+  }
+
+  60% {
+    background-position: right;
+  }
+
+  70% {
+    background-position: left;
+  }
+
+  80% {
+    background-position: bottom;
+  }
+
+  90% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+
+.animationStart {
+  opacity: 0%;
+  min-width: 60vw;
+  z-index: 99;
+  margin-top: 10rem;
+  position: fixed;
+  animation: starting 4s;
+}
+
+@keyframes starting {
+
+  10% {
+    opacity: 100%;
+  }
+
+  20% {
+    opacity: 100%;
+  }
+
+  30% {
+    opacity: 100%;
+  }
+
+  40% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  60% {
+    opacity: 100%;
+  }
+
+  70% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 100%;
+  }
+
+  90% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.opacity {
+  animation: opacity 2.3s;
+}
+
+@keyframes opacity {
+
+  10% {
+    opacity: 0%;
+  }
+
+  15% {
+    opacity: 0%;
+  }
+
+  20% {
+    opacity: 0%;
+  }
+
+  25% {
+    opacity: 0%;
+  }
+
+  30% {
+    opacity: 0%;
+  }
+
+  35% {
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+  }
+
+  70% {
+    opacity: 20%;
+  }
+
+  75% {
+    opacity: 30%;
+  }
+
+  80% {
+    opacity: 40%;
+  }
+
+  85% {
+    opacity: 50%;
+  }
+
+  90% {
+    opacity: 60%;
+  }
+
+  95% {
+    opacity: 70%;
+  }
+
+  100% {
+    opacity: 80%;
+  }
+}
+
+.maxWidth{
+  max-width: 900px;
+  min-width: 900px;
+}
